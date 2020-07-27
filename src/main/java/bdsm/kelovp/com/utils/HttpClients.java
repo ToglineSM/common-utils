@@ -66,9 +66,9 @@ public class HttpClients {
 	}
 
 	// 请求配置常量
-	private static final int CONNECTION_REQUEST_TIMEOUT = 1000 * 30;
-	private static final int CONNECT_TIMEOUT = 1000 * 30;
-	private static final int SOCKET_TIMEOUT = 1000 * 5;
+	private static final int CONNECTION_REQUEST_TIMEOUT = 100000 * 30;
+	private static final int CONNECT_TIMEOUT = 100000 * 30;
+	private static final int SOCKET_TIMEOUT = 100000 * 30;
 	// 默认请求配置
 	private static final RequestConfig DEFAULT_REQUEST_CONFIG;
 	// 连接池配置常量
